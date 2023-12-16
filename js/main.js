@@ -1,3 +1,10 @@
+
+AOS.init({
+    duration: 1200,
+});
+
+
+
 $(document).ready(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,8 +22,7 @@
                                 class="w-4 h-4 text-gray-800" width="24" height="24" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <title>Toggle Menu</title>
-                                <path class=" toggle-nav hidden" fill-rule="evenodd"
-                                    clip-rule="evenodd"
+                                <path class=" toggle-nav hidden" fill-rule="evenodd" clip-rule="evenodd"
                                     d="M18.278 16.864a1 1 0 01-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 01-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 011.414-1.414l4.829 4.828 4.828-4.828a1 1 0 111.414 1.414l-4.828 4.829 4.828 4.828z">
                                 </path>
                                 <path class=" toggle-nav" fill-rule="evenodd"
@@ -104,7 +104,7 @@
             <p class="text-lg mt-4 text-slate-500 mx-auto max-w-xl">Got Questions? We are here to help.</p>
         </div>
         <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
-            <div>
+            <div data-aos="fade-right">
                 <h2 class="font-medium text-2xl text-gray-800">Contact Astroship</h2>
                 <p class="text-lg leading-relaxed text-slate-500 mt-3">
                     Have something to say? We are here to help. Fill up the form or send
@@ -131,7 +131,7 @@
                         </svg><a href="#">+1 (987) 4587 899</a></div>
                 </div>
             </div>
-            <div class="bg-slate-100 p-5 md:p-8 rounded-xl mb-5">
+            <div class="bg-slate-100 p-5 md:p-8 rounded-xl mb-5" data-aos="fade-left">
                 <form action="#" id="form" class="needs-validation">
                     <div class="mb-5">
                         <input type="text" placeholder="Full Name" required=""
@@ -230,6 +230,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
